@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  border:0;
+}
+
+.img-bg, .img-bg img{
+  width: 100%;
+  height: auto;
+}
+
+.img-kitten{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.img-kitten picture{
+  width: 50%;
+  position: absolute;
+}
